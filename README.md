@@ -14,7 +14,7 @@ seconds. This data was point together in order to make one average flight separa
 an appropriate polynomial. The derivative of each polynomial were then taken in order to plot the total height and range at a given time.
 
   # Code Listing
-  A list of each function/script and a single-line description of what it does.  The name of the function/script should link to the file in the repository on GitHub.
+
 	PaperPlane.m (main script were most of the calculations and plotting were done)
 
 	EqMotion.m   (function which takes initial conditions of the environment and the plane and makes the setup needed in order toc alculate height and 
@@ -24,13 +24,17 @@ an appropriate polynomial. The derivative of each polynomial were then taken in 
   ## Fig. 1: Single Parameter Variation
 ![image](https://github.com/gardn732/CompMethodFinal/assets/168943029/a46b7157-1954-4bae-a833-6bd82f9c17ef)
 
+This figure shows 2 different variations of the paper plane simulation. The top plot shows what happens when the starting velocty is changed. In yellow the inital velocity is 7.5 m/s, in orange the inital velocity is 3.55 m/s, and in blue the inital velocity is 2.5 m/s.
+the bottom plot shows what happens when the starting angle is changed. In Yellow the inital angle is 0.4 radians, in orange the inital angle is -0.18 radians, and in blue the inital angle is -0.5 radians.
 
   ## Fig. 2: Monte Carlo Simulation
-  <2D trajectories simulated using random sampling of parameters, overlay polynomial fit onto plot.>
 
-  Briefly describe what is being shown in the figure.
+![image](https://github.com/gardn732/CompMethodFinal/assets/168943029/0ddb5f5a-8438-4bc3-a37f-41bcbd5d9e03)
+
+  This figure shows 100 simulations in which the starting velocity and launch angle are randomized between 2.5 m/s and 7.5 m/s and -0.5 radians and 0.4 radians respectivly.  
 
  ## Fig. 3: Time Derivatives
- <Time-derivative of height and range for the fitted trajectory>
 
-  Briefly describe what is being shown in the figure.
+![image](https://github.com/gardn732/CompMethodFinal/assets/168943029/c0aa44d6-06d9-46a6-b912-83f02a9189e3)
+
+ This figue shows the derivitives of the average height of the 100 simulations vs time on the top plot and the average range of the 100 simulations vs time on the bottom. 
