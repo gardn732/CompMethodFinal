@@ -17,8 +17,8 @@ an appropriate polynomial. The derivative of each polynomial were then taken in 
 
 	PaperPlane.m (main script were most of the calculations and plotting were done)
 
-	EqMotion.m   (function which takes initial conditions of the environment and the plane and makes the setup needed in order toc alculate height and 
-		      range over time)
+	EqMotion.m   (function which takes initial conditions of the environment and the plane
+ 		      and makes the setup needed in order toc alculate height and range over time)
   # Figures
 
   ## Fig. 1: Single Parameter Variation
